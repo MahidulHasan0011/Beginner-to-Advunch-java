@@ -7,17 +7,17 @@ public class AssignmentOperator {
     x+=y; //x=x+y=30
     System.out.println("x+= is "+x);
     
-      x-=y; //x=x-y=30
+      x-=y; //x=x-y=3
     System.out.println("x-= is "+x);
     
     
-      x*=y; //x=x*y=30
+      x*=y; //x=x*y=6
     System.out.println("x*= is "+x);
     
-      x/=y; //x=x/y=30
+      x/=y; //x=x/y=3
     System.out.println("x/= is "+x);
     
-      x%=y; //x=x%y=30
+      x%=y; //x=x%y=1
     System.out.println("x%= is "+x);
     
     
