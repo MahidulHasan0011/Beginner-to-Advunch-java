@@ -4,6 +4,8 @@ package staticMethod;
 public class staticBlock {
   static int id;
 static String name;
+
+
 static{
 id=001;
 name="mahidul";

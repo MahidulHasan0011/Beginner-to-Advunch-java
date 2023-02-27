@@ -2,17 +2,17 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package Inheritance.superkeyword;
-
-/**
- *
- * @author DELL
- */
-public class methodSuperKeyWordOBJ {
+package AccessModifier2;
+import AccessModifier1.aClass;
+import AccessModifier1.bClass;
+public class obj2 extends bClass {
     public static void main(String[] args) {
-        methodSuperKeyWordClassSub obj =new methodSuperKeyWordClassSub();
+        aClass abc =new aClass();
         
-        obj.displayRes();
+        abc.addName();
+        obj2 ob=new obj2();
+        ob.setAge();
+        
     }
+    
 }
- 

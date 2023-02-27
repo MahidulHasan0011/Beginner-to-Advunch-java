@@ -2,17 +2,19 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package Inheritance.superkeyword;
+package TypeCasting.NONpremitive;
 
 /**
  *
  * @author DELL
  */
-public class methodSuperKeyWordOBJ {
+public class upCastingOBJ {
     public static void main(String[] args) {
-        methodSuperKeyWordClassSub obj =new methodSuperKeyWordClassSub();
+        upCastingPerson p =new upCastingTeacher();//UpCasting
+        p.display();
         
-        obj.displayRes();
+        
+        upCastingTeacher t=(upCastingTeacher) new upCastingPerson();//DownCasting
+        t.display();
     }
 }
- 
